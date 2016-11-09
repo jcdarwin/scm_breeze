@@ -170,6 +170,9 @@ if [ "$git_setup_aliases" = "yes" ]; then
 
   # Hub aliases (https://github.com/github/hub)
   _alias "$git_pull_request_alias"        'git pull-request'
+
+  _alias "$git_commit_msg_alias"          'git commit --message'
+  _alias "$git_grep_extended_regexp_alias" 'git grep --extended-regexp --line-number --break --heading'
 fi
 
 
